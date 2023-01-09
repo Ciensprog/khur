@@ -1,6 +1,6 @@
 {
   "name": "khur",
-  "description": "An Open-Source Js/Ts runner application",
+  "description": "An Open-Source Js/Ts runner application and Markdown previewer",
   "version": "0.0.0",
   "author": "Ciensprog",
   "scripts": {
