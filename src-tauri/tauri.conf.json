@@ -133,11 +133,12 @@
         "entitlements": null,
         "exceptionDomain": "",
         "frameworks": [],
+        "license": "../LICENSE",
         "providerShortName": null,
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "",
+      "shortDescription": "Js/Ts/Md Previewer",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -153,15 +154,15 @@
     },
     "windows": [
       {
+        "center": true,
         "fullscreen": false,
         "height": 700,
-        "resizable": true,
-        "title": "Khur",
-        "width": 1000,
         "hiddenTitle": true,
         "minHeight": 600,
         "minWidth": 800,
-        "center": true
+        "title": "Khur",
+        "resizable": true,
+        "width": 1000
       }
     ]
   }
