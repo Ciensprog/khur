@@ -1,17 +1,9 @@
 import react from '@vitejs/plugin-react-swc'
 import { defineConfig } from 'vite'
-import { ViteAliases } from 'vite-aliases'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    ViteAliases({
-      dir: './src',
-      useConfig: true,
-      useTypescript: true,
-    }),
-  ],
+  plugins: [react()],
 
   // Vite options tailored for Tauri development and only applied in `tauri dev` or `tauri build`
   // prevent vite from obscuring rust errors
