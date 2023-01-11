@@ -155,6 +155,7 @@
     "windows": [
       {
         "center": true,
+        "decorations": false,
         "fullscreen": false,
         "height": 700,
         "hiddenTitle": true,
