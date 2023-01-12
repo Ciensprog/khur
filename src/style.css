@@ -3,18 +3,44 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-default: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+  font-family: 'Fira Code', var(--font-family-default);
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
-  @apply border border-slate-500/30;
-  @apply bg-slate-800 text-slate-100;
-  @apply h-screen overflow-hidden;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  @apply bg-black-900 text-slate-100;
+  @apply h-screen overflow-hidden;
+}
+
+body {
+  --panel-color: #24292f;
+  --border-color-base: rgb(100 116 139 / 0.3);
+
+  border-color: var(--border-color-base);
+  border-width: 1px;
+}
+
+.tab {
+  transition: box-shadow 0.2s linear;
+
+  &[data-headlessui-state='selected'] {
+    background-color: var(--panel-color);
+    box-shadow: 0 -1px 0 0 var(--border-color-base) inset;
+  }
+
+  &:focus {
+    box-shadow: 0 -4px 0 0 var(--border-color-base) inset;
+  }
+}
+
+.panels {
+  background-color: var(--panel-color);
 }
