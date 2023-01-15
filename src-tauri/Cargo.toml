@@ -1,7 +1,7 @@
 [package]
 name = "khur"
 version = "0.0.0"
-description = "A Tauri App"
+description = "An Open-Source Js/Ts runner application and Markdown previewer"
 authors = ["you"]
 license = ""
 repository = ""
