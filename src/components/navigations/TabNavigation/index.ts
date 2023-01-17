@@ -4,5 +4,4 @@
 |-------------------------------------------------------------------------------
 */
 
-export * from './TabContent'
-export * from './TabItem'
+export * from './TabNavigation'
