@@ -7,5 +7,6 @@
 export type TabItemProps = {
   active?: boolean
   index: number
+  onClick?: () => void
   title: string
 }
