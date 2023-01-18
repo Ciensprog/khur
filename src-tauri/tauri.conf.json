@@ -159,7 +159,7 @@
         "height": 700,
         "hiddenTitle": true,
         "minHeight": 600,
-        "minWidth": 800,
+        "minWidth": 1000,
         "resizable": true,
         "theme": "Dark",
         "title": "Khur",
