@@ -1,8 +1,10 @@
 /*
 |-------------------------------------------------------------------------------
-| Exports
+| Types
 |-------------------------------------------------------------------------------
 */
 
-export * from './components'
-export * from './state'
+export type TabNavState = {
+  changeTab: (tabIndex: number) => void
+  currentTabIndex: number
+}
