@@ -19,7 +19,7 @@ export function TabNavigation() {
     <div className="tab-navigation bg-black-800 flex items-center px-2 z-10">
       <div className="pl-4 pr-5 hidden"></div>
 
-      <ScrollArea type="never" className="max-w-[100vw]">
+      <ScrollArea type="never" className="max-w-screen">
         <nav
           className="tabnav-tabs flex pt-2 relative text-white"
           aria-label="Tab navigation"
