@@ -12,7 +12,6 @@ export const useTabsDataStore = create<TabsState>()((_, get) => ({
   getTabData: (searchIndex: number) =>
     get().tabs.find((_, index) => index === searchIndex),
   tabs: [
-    { id: crypto.randomUUID(), title: 'Tab with title #0' },
     { id: crypto.randomUUID(), title: 'Tab with title #1' },
     { id: crypto.randomUUID(), title: 'Tab with title #2' },
     { id: crypto.randomUUID(), title: 'Tab with title #3' },

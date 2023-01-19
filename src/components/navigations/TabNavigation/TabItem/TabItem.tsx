@@ -17,7 +17,7 @@ export function TabItem({ active, index, onClick, title }: TabItemProps) {
       onClick={onClick}
       role="tab"
     >
-      <span className="index font-medium">{index}</span>
+      <span className="index font-medium">{index + 1}</span>
       <span className="title overflow-hidden text-ellipsis whitespace-nowrap min-w-[6rem]">
         {title !== '' ? title : ''}
       </span>
