@@ -12,6 +12,9 @@ module.exports = {
   theme: {
     extend: {
       colors,
+      maxWidth: {
+        screen: '100vw',
+      },
     },
   },
   plugins: [],
