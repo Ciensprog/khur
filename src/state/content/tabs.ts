@@ -9,8 +9,7 @@ import { TabsState } from '../../types/state/content'
 */
 
 export const useTabsDataStore = create<TabsState>()((_, get) => ({
-  getTabData: (searchIndex: number) =>
-    get().tabs.find((_, index) => index === searchIndex),
+  getTabData: (searchIndex: number) => get().tabs[searchIndex],
   tabs: [
     { config: {}, id: crypto.randomUUID(), title: 'Tab with title #1' },
     { config: {}, id: crypto.randomUUID(), title: 'Tab with title #2' },
