@@ -1,8 +1,9 @@
 /*
 |-------------------------------------------------------------------------------
-| Exports
+| Types
 |-------------------------------------------------------------------------------
 */
 
-export * from './navigations'
-export * from './panels'
+export type PanelProps = {
+  children: JSX.Element
+}

@@ -2,7 +2,7 @@ import { useHotkeys } from '@mantine/hooks'
 import { useCallback } from 'react'
 import { shallow } from 'zustand/shallow'
 
-import { useTabNavStore, useTabsDataStore } from '../../state'
+import { useTabNavStore, useTabsDataStore } from '../state'
 
 /*
 |-------------------------------------------------------------------------------

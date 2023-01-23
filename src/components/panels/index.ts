@@ -4,5 +4,4 @@
 |-------------------------------------------------------------------------------
 */
 
-export * from './navigations'
-export * from './panels'
+export * from './Panel'

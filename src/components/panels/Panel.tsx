@@ -1,8 +1,11 @@
+import { PanelProps } from '../../types'
+
 /*
 |-------------------------------------------------------------------------------
-| Exports
+| Component
 |-------------------------------------------------------------------------------
 */
 
-export * from './navigations'
-export * from './panels'
+export function Panel({ children }: PanelProps) {
+  return children
+}
