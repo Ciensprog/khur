@@ -4,7 +4,12 @@
 |-------------------------------------------------------------------------------
 */
 
+export type TabConfig = {
+  //
+}
+
 export type TabItemInfo = {
+  config: TabConfig
   id: string
   title: string
 }
