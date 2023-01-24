@@ -16,7 +16,7 @@ export function TabNavigation() {
   const tabs = useTabsDataStore((state) => state.tabs)
 
   return (
-    <div className="tab-navigation bg-black-800 flex items-center px-2 z-10">
+    <div className="tab-navigation bg-black-800 flex items-center px-2 z-10 select-none">
       <div className="pl-4 pr-5 hidden"></div>
 
       <ScrollArea type="never" className="max-w-screen">
