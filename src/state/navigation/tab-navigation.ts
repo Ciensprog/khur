@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 
-import { TabNavState } from '../../types/state/navigation'
+import { TabNavState } from '../../typings/state/navigation'
 
 /*
 |-------------------------------------------------------------------------------

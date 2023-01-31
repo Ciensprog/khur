@@ -1,4 +1,4 @@
-import { TabItemProps } from '../../../../types'
+import { TabItemProps } from '../../../../typings'
 
 /*
 |-------------------------------------------------------------------------------

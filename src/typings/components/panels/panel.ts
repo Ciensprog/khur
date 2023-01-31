@@ -1,12 +1,9 @@
 /*
 |-------------------------------------------------------------------------------
-| Types
+| Typings
 |-------------------------------------------------------------------------------
 */
 
-export type TabItemProps = {
-  active?: boolean
-  index: number
-  onClick?: () => void
-  title: string
+export type PanelProps = {
+  children: JSX.Element
 }

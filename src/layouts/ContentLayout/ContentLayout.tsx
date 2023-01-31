@@ -1,4 +1,4 @@
-import { ContentLayoutProps } from '../../types'
+import { ContentLayoutProps } from '../../typings'
 
 import { Panel } from '../../components/panels'
 

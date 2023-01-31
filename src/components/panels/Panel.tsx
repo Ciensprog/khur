@@ -1,4 +1,4 @@
-import { PanelProps } from '../../types'
+import { PanelProps } from '../../typings'
 
 /*
 |-------------------------------------------------------------------------------
