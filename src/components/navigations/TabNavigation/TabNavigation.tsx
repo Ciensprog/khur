@@ -1,8 +1,8 @@
 import { ScrollArea } from '@mantine/core'
 
-import { TabItem } from './TabItem'
-
 import { useTabNavStore, useTabsDataStore } from '@/state'
+
+import { TabItem } from './TabItem'
 
 /*
 |-------------------------------------------------------------------------------
