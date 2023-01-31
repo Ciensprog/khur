@@ -9,6 +9,6 @@ import { TabNavState } from '../../types/state/navigation'
 */
 
 export const useTabNavStore = create<TabNavState>()((set) => ({
-  changeTab: (tabIndex: number) => set(() => ({ currentTabIndex: tabIndex })),
-  currentTabIndex: 0,
+  changeTab: (tabIndex) => set(() => ({ currentTabIndex: tabIndex })),
+  currentTabIndex: null,
 }))

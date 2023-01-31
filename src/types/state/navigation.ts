@@ -4,7 +4,9 @@
 |-------------------------------------------------------------------------------
 */
 
+export type TabIndexValues = number | null
+
 export type TabNavState = {
-  changeTab: (tabIndex: number) => void
-  currentTabIndex: number
+  changeTab: (tabIndex: TabIndexValues) => void
+  currentTabIndex: TabIndexValues
 }
