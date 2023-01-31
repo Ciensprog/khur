@@ -1,6 +1,6 @@
 import { RouterProvider } from '@tanstack/react-router'
 
-import { useHotkeysToChangeTab } from './hooks/hotkeys'
+import { useHotkeysToChangeTab } from '@/hooks/hotkeys'
 
 import { router } from './router'
 

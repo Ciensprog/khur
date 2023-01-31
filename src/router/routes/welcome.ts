@@ -1,6 +1,6 @@
 import { Route } from '@tanstack/react-router'
 
-import { Welcome } from '../../pages/Welcome'
+import { Welcome } from '@/pages/Welcome'
 
 import { rootRoute } from './root'
 

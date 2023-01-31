@@ -1,8 +1,8 @@
-import { ContentLayoutProps } from '../../typings'
+import { ContentLayoutProps } from '@/typings'
 
-import { Panel } from '../../components/panels'
+import { Panel } from '@/components/panels'
 
-import { useTabNavStore, useTabsDataStore } from '../../state'
+import { useTabNavStore, useTabsDataStore } from '@/state'
 
 /*
 |-------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 import { Outlet, RootRoute } from '@tanstack/react-router'
 
-import { TabNavigation } from '../../components/navigations/TabNavigation'
+import { TabNavigation } from '@/components/navigations/TabNavigation'
 
 /*
 |-------------------------------------------------------------------------------
