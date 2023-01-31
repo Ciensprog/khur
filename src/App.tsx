@@ -1,7 +1,8 @@
-import { ContentLayout } from './layouts'
-import { TabNavigation } from './components/navigations/TabNavigation'
+import { RouterProvider } from '@tanstack/react-router'
 
 import { useHotkeysToChangeTab } from './hooks/hotkeys'
+
+import { router } from './router'
 
 /*
 |-------------------------------------------------------------------------------
@@ -14,8 +15,7 @@ export function App() {
 
   return (
     <>
-      <TabNavigation />
-      <ContentLayout />
+      <RouterProvider router={router} />
     </>
   )
 }
