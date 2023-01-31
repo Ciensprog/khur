@@ -1,3 +1,5 @@
+import { TabIndexValues } from './navigation'
+
 /*
 |-------------------------------------------------------------------------------
 | Typings
@@ -15,6 +17,6 @@ export type TabItemInfo = {
 }
 
 export type TabsState = {
-  getTabData: (index: number) => TabItemInfo | undefined
+  getTabData: (index: TabIndexValues) => TabItemInfo | undefined
   tabs: Array<TabItemInfo>
 }
